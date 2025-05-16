@@ -1,0 +1,18 @@
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists_p2.Forms.AboutForm.resources
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists_p2.Forms.ArrayEnterForm.resources
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists_p2.Forms.MainForm.resources
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists p2.csproj.GenerateResource.cache
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists p2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists p2.AssemblyInfoInputs.cache
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists p2.AssemblyInfo.cs
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists p2.csproj.CoreCompileInputs.cache
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\bin\Debug\net9.0-windows\lists p2.exe
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\bin\Debug\net9.0-windows\lists p2.deps.json
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\bin\Debug\net9.0-windows\lists p2.runtimeconfig.json
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\bin\Debug\net9.0-windows\lists p2.dll
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\bin\Debug\net9.0-windows\lists p2.pdb
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists p2.dll
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\refint\lists p2.dll
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists p2.pdb
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\lists p2.genruntimeconfig.cache
+C:\Users\lattesyrup\Desktop\симонова\лабы\2 вторая\варик мой\lists p2\lists p2\obj\Debug\net9.0-windows\ref\lists p2.dll
