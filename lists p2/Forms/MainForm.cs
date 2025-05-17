@@ -27,7 +27,7 @@ public partial class MainForm : Form
     private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
     {
         DialogResult result = MessageBox.Show(
-            "Âû óâåðåíû, ÷òî õîòèòå âûéòè?", "Âûõîä",
+            "Ð’Ñ‹ ÑƒÐ²ÐµÑ€ÐµÐ½Ñ‹, Ñ‡Ñ‚Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ Ð²Ñ‹Ð¹Ñ‚Ð¸?", "Ð’Ñ‹Ñ…Ð¾Ð´",
             MessageBoxButtons.YesNo, MessageBoxIcon.Question);
         if (result == DialogResult.No)
             e.Cancel = true;
@@ -112,7 +112,7 @@ public partial class MainForm : Form
     private void TaskReplaceToolStripMenuItem_Click(object sender, EventArgs e)
     {
         if (!(L1.IsFilled() && L2.IsFilled() && L3.IsFilled()))
-            MessageBox.Show("Åñòü íåñîçäàííûå ñïèñêè.", "Îøèáêà",
+            MessageBox.Show("Ð•ÑÑ‚ÑŒ Ð½ÐµÑÐ¾Ð·Ð´Ð°Ð½Ð½Ñ‹Ðµ ÑÐ¿Ð¸ÑÐºÐ¸.", "ÐžÑˆÐ¸Ð±ÐºÐ°",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
         else
         {
@@ -150,15 +150,15 @@ public partial class MainForm : Form
 
     #region input
 
-    private int GetNumber(string name = "÷èñëî")
+    private int GetNumber(string name = "Ñ‡Ð¸ÑÐ»Ð¾")
     {
-        string result = Interaction.InputBox($"Ââåäèòå {name}:", "Ââîä ÷èñëà");
+        string result = Interaction.InputBox($"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ {name}:", "Ð’Ð²Ð¾Ð´ Ñ‡Ð¸ÑÐ»Ð°");
         int number;
         while (!int.TryParse(result, out number))
         {
-            MessageBox.Show("Òåêñò íå ñîîòâåòñòâóåò ôîðìàòó ÷èñëà. Ïîâòîðèòå ââîä.","Îøèáêà",
+            MessageBox.Show("Ð¢ÐµÐºÑÑ‚ Ð½Ðµ ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÑƒÐµÑ‚ Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ñƒ Ñ‡Ð¸ÑÐ»Ð°. ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€Ð¸Ñ‚Ðµ Ð²Ð²Ð¾Ð´.","ÐžÑˆÐ¸Ð±ÐºÐ°",
                 MessageBoxButtons.OK, MessageBoxIcon.Error);
-            result = Interaction.InputBox($"Ââåäèòå {name}:", "Ââîä ÷èñëà");
+            result = Interaction.InputBox($"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ {name}:", "Ð’Ð²Ð¾Ð´ Ñ‡Ð¸ÑÐ»Ð°");
         }
         return number;
     }
@@ -189,11 +189,11 @@ public partial class MainForm : Form
     => L3.InsertAfterLast(GetNumber());
 
     private void AddSomewhereTo1ToolStripMenuItem_Click(object sender, EventArgs e)
-    => L1.InsertAt(GetNumber("èíäåêñ"), GetNumber());
+    => L1.InsertAt(GetNumber("Ã¨Ã­Ã¤Ã¥ÃªÃ±"), GetNumber());
     private void AddSomewhereTo2ToolStripMenuItem_Click(object sender, EventArgs e)
-    => L2.InsertAt(GetNumber("èíäåêñ"), GetNumber());
+    => L2.InsertAt(GetNumber("Ã¨Ã­Ã¤Ã¥ÃªÃ±"), GetNumber());
     private void AddSomewhereTo3ToolStripMenuItem_Click(object sender, EventArgs e)
-    => L3.InsertAt(GetNumber("èíäåêñ"), GetNumber());
+    => L3.InsertAt(GetNumber("Ã¨Ã­Ã¤Ã¥ÃªÃ±"), GetNumber());
 
     private void RemoveFirstIn1ToolStripMenuItem_Click(object sender, EventArgs e)
     => L1.DeleteFirst();
@@ -210,11 +210,11 @@ public partial class MainForm : Form
     => L3.DeleteLast();
 
     private void RemoveSomewhereIn1ToolStripMenuItem_Click(object sender, EventArgs e)
-    => L1.DeleteAt(GetNumber("èíäåêñ"));
+    => L1.DeleteAt(GetNumber("Ð½Ð¾Ð¼ÐµÑ€"));
     private void RemoveSomewhereIn2ToolStripMenuItem_Click(object sender, EventArgs e)
-    => L2.DeleteAt(GetNumber("èíäåêñ"));
+    => L2.DeleteAt(GetNumber("Ð½Ð¾Ð¼ÐµÑ€"));
     private void RemoveSomewhereIn3ToolStripMenuItem_Click(object sender, EventArgs e)
-    => L3.DeleteAt(GetNumber("èíäåêñ"));
+    => L3.DeleteAt(GetNumber("Ð½Ð¾Ð¼ÐµÑ€"));
 
     #endregion
 }
